@@ -11,3 +11,9 @@ hash.get("foo") # returns "this is a thing"
 ```
 * Implement a hash function which given the key, returns an index
 * Store values in an array using the index
+
+## Collisions
+
+* Initial version can throw an exception when you try to put into the hash and encounter 
+a key collision.
+* For extra credit, come up with a key collision strategy.
